@@ -971,7 +971,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 2px;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
 }
 .footer-brand p {
