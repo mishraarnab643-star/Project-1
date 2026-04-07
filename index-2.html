@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prayash Competitive Coaching & Library – Balasore</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts: Bebas Neue for headers, Nunito for body -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       STICKY NAVIGATION BAR
+       Active section is highlighted via JS scroll spy
+  ============================================= -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-p">P</span>RAYASH
+      </a>
+      <!-- Hamburger toggle for mobile -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#courses" class="nav-link">Courses</a></li>
+        <li><a href="#teachers" class="nav-link">Teachers</a></li>
+        <li><a href="#results" class="nav-link">Results</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="tel:9861537526" class="nav-cta">
+            <i class="fas fa-phone-alt"></i> Call Now
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- =============================================
+       HERO SECTION
+       Animated headline, subtext, dual CTAs
+  ============================================= -->
+  <section id="home" class="hero">
+    <!-- Decorative floating shapes -->
+    <div class="hero-shape shape-1"></div>
+    <div class="hero-shape shape-2"></div>
+    <div class="hero-shape shape-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">🏆 Balasore's Most Trusted Coaching Institute</div>
+      <h1 class="hero-title reveal-up">
+        Crack Government<br />
+        <span class="text-accent">Exams</span> with<br />
+        <span class="text-highlight">Confidence</span>
+      </h1>
+      <p class="hero-sub reveal-up">
+        Join Prayash Competitive Coaching &amp; Library — the go-to institute in Balasore for Railway, Banking, SSC &amp; more. Expert faculty. Proven results.
+      </p>
+      <!-- Urgency banner -->
+      <div class="urgency-tag reveal-up">
+        <i class="fas fa-fire"></i> Limited Seats Available — Enroll Before They Fill Up!
+      </div>
+      <div class="hero-btns reveal-up">
+        <!-- Enroll redirects to Google Form (placeholder) -->
+        <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-primary ripple">
+          <i class="fas fa-pen-to-square"></i> Enroll Now
+        </a>
+        <a href="tel:9861537526" class="btn btn-outline ripple">
+          <i class="fas fa-phone-alt"></i> Call Now
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero decorative stats strip -->
+    <div class="hero-stats reveal-up">
+      <div class="stat-item">
+        <span class="stat-num">1000+</span>
+        <span class="stat-label">Students Trained</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Govt. Jobs Secured</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">90%</span>
+        <span class="stat-label">Success Rate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       WHY CHOOSE US SECTION
+  ============================================= -->
+  <section id="why" class="section why-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-tag">Why Prayash?</p>
+        <h2 class="section-title">Built for <span class="text-accent">Winners</span></h2>
+      </div>
+      <div class="why-grid">
+        <!-- Each card fades in with staggered delay via JS -->
+        <div class="why-card reveal-up" style="--delay: 0ms">
+          <div class="why-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <h3>Expert Guidance</h3>
+          <p>Seasoned faculty with deep knowledge of competitive exam patterns and strategies.</p>
+        </div>
+        <div class="why-card reveal-up" style="--delay: 100ms">
+          <div class="why-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Exam-Focused Curriculum</h3>
+          <p>Every lesson, test, and mock exam is designed around the actual exam syllabus.</p>
+        </div>
+        <div class="why-card reveal-up" style="--delay: 200ms">
+          <div class="why-icon"><i class="fas fa-snowflake"></i></div>
+          <h3>AC &amp; Non-AC Library</h3>
+          <p>Study in comfort. Our library is open extended hours with full study resources.</p>
+        </div>
+        <div class="why-card reveal-up" style="--delay: 300ms">
+          <div class="why-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Proven Results</h3>
+          <p>500+ students have secured government jobs through Prayash since inception.</p>
+        </div>
+        <div class="why-card reveal-up" style="--delay: 400ms">
+          <div class="why-icon"><i class="fas fa-wallet"></i></div>
+          <h3>Affordable Fees</h3>
+          <p>Quality coaching at fees that every aspiring student can afford. No hidden charges.</p>
+        </div>
+        <div class="why-card reveal-up" style="--delay: 500ms">
+          <div class="why-icon"><i class="fas fa-users"></i></div>
+          <h3>Batch Flexibility</h3>
+          <p>Multiple batches to choose from — morning and evening slots to suit your schedule.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       COURSES SECTION
+       Cards expand on click to reveal more details
+  ============================================= -->
+  <section id="courses" class="section courses-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-tag">What We Offer</p>
+        <h2 class="section-title">Our <span class="text-accent">Courses</span></h2>
+        <p class="section-sub">Structured learning with real exam strategies</p>
+      </div>
+
+      <!-- Competitive Coaching block -->
+      <h3 class="course-category reveal-up"><i class="fas fa-medal"></i> Competitive Coaching</h3>
+      <div class="courses-grid">
+        <!-- Course cards — click to expand details (handled by JS) -->
+        <div class="course-card reveal-up ripple" data-course="railway" style="--delay:0ms">
+          <div class="course-icon"><i class="fas fa-train"></i></div>
+          <h4>Railway</h4>
+          <p class="course-short">RRB NTPC, Group D & ALP preparation</p>
+          <div class="course-detail">
+            <ul>
+              <li>RRB NTPC, Group D, ALP</li>
+              <li>Maths, Reasoning, GK</li>
+              <li>Mock tests every week</li>
+              <li>Previous year papers</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card reveal-up ripple" data-course="banking" style="--delay:80ms">
+          <div class="course-icon"><i class="fas fa-landmark"></i></div>
+          <h4>Banking</h4>
+          <p class="course-short">SBI, IBPS PO & Clerk coaching</p>
+          <div class="course-detail">
+            <ul>
+              <li>SBI PO/Clerk, IBPS PO/Clerk</li>
+              <li>Quantitative Aptitude</li>
+              <li>English & Reasoning</li>
+              <li>Interview preparation</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card reveal-up ripple" data-course="ssc" style="--delay:160ms">
+          <div class="course-icon"><i class="fas fa-file-shield"></i></div>
+          <h4>SSC</h4>
+          <p class="course-short">SSC CGL, CHSL & MTS preparation</p>
+          <div class="course-detail">
+            <ul>
+              <li>SSC CGL, CHSL, MTS, GD</li>
+              <li>Tier I & Tier II strategy</li>
+              <li>Speed maths techniques</li>
+              <li>Weekly mock exams</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card reveal-up ripple" data-course="ossc" style="--delay:240ms">
+          <div class="course-icon"><i class="fas fa-building-columns"></i></div>
+          <h4>OSSC</h4>
+          <p class="course-short">Odisha Staff Selection Commission</p>
+          <div class="course-detail">
+            <ul>
+              <li>OSSC CGL, Auditor, SI</li>
+              <li>Odia language section</li>
+              <li>State GK focus</li>
+              <li>Full syllabus coverage</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card reveal-up ripple" data-course="osssc" style="--delay:320ms">
+          <div class="course-icon"><i class="fas fa-school"></i></div>
+          <h4>OSSSC</h4>
+          <p class="course-short">Odisha Subordinate Staff Selection</p>
+          <div class="course-detail">
+            <ul>
+              <li>RI, Amin, Forester</li>
+              <li>Revenue Inspector prep</li>
+              <li>District-level GK</li>
+              <li>Model question papers</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card reveal-up ripple" data-course="ltr" style="--delay:400ms">
+          <div class="course-icon"><i class="fas fa-book-open-reader"></i></div>
+          <h4>LTR</h4>
+          <p class="course-short">Language Teacher Recruitment</p>
+          <div class="course-detail">
+            <ul>
+              <li>Odia LTR preparation</li>
+              <li>Pedagogy & methodology</li>
+              <li>Subject-specific modules</li>
+              <li>Written + viva coaching</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card reveal-up ripple" data-course="rht" style="--delay:480ms">
+          <div class="course-icon"><i class="fas fa-person-chalkboard"></i></div>
+          <h4>RHT</h4>
+          <p class="course-short">Regular Home Teacher exam prep</p>
+          <div class="course-detail">
+            <ul>
+              <li>Child development & pedagogy</li>
+              <li>Core subject revision</li>
+              <li>Previous year analysis</li>
+              <li>Speed practice drills</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card reveal-up ripple" data-course="bed" style="--delay:560ms">
+          <div class="course-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h4>B.Ed</h4>
+          <p class="course-short">Bachelor of Education entrance</p>
+          <div class="course-detail">
+            <ul>
+              <li>B.Ed entrance guidance</li>
+              <li>IGNOU B.Ed support</li>
+              <li>Education theory modules</li>
+              <li>Practical exam prep</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+      </div>
+
+      <!-- Computer Courses block -->
+      <h3 class="course-category reveal-up" style="margin-top:3rem"><i class="fas fa-computer"></i> Computer Courses</h3>
+      <div class="courses-grid computer-grid">
+        <div class="course-card course-card--computer reveal-up ripple" data-course="oscit" style="--delay:0ms">
+          <div class="course-icon"><i class="fas fa-desktop"></i></div>
+          <h4>OS-CIT</h4>
+          <p class="course-short">Odisha State Certificate in IT</p>
+          <div class="course-detail">
+            <ul>
+              <li>Govt.-recognised IT certificate</li>
+              <li>MS Office, Internet basics</li>
+              <li>Typing & data entry</li>
+              <li>Exam + practical support</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card course-card--computer reveal-up ripple" data-course="pgdca" style="--delay:100ms">
+          <div class="course-icon"><i class="fas fa-laptop-code"></i></div>
+          <h4>PGDCA</h4>
+          <p class="course-short">Post Graduate Diploma in Computer Applications</p>
+          <div class="course-detail">
+            <ul>
+              <li>1-year PG diploma</li>
+              <li>Programming, DBMS, Networking</li>
+              <li>Project work included</li>
+              <li>University-affiliated</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+
+        <div class="course-card course-card--computer reveal-up ripple" data-course="dca" style="--delay:200ms">
+          <div class="course-icon"><i class="fas fa-microchip"></i></div>
+          <h4>DCA</h4>
+          <p class="course-short">Diploma in Computer Applications</p>
+          <div class="course-detail">
+            <ul>
+              <li>6-month diploma course</li>
+              <li>MS Office, Tally, Internet</li>
+              <li>Typing certification</li>
+              <li>Job-ready skills</li>
+            </ul>
+            <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-sm ripple">Enroll</a>
+          </div>
+          <span class="expand-hint">Click to expand <i class="fas fa-chevron-down"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       TEACHERS SECTION
+       Cards show hover reveal; click opens modal
+  ============================================= -->
+  <section id="teachers" class="section teachers-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-tag">Our Faculty</p>
+        <h2 class="section-title">Learn from <span class="text-accent">Experienced</span> Mentors</h2>
+        <p class="section-sub">Our faculty members are dedicated to helping students succeed with personalized attention and exam-focused strategies.</p>
+      </div>
+      <div class="teachers-grid">
+        <!-- Teacher cards — click opens modal (JS handles this) -->
+        <div class="teacher-card reveal-up" data-teacher="0" style="--delay:0ms">
+          <div class="teacher-avatar">
+            <div class="avatar-placeholder"><i class="fas fa-user-tie"></i></div>
+            <div class="teacher-overlay">
+              <span>View Profile</span>
+            </div>
+          </div>
+          <div class="teacher-info">
+            <h4>Maths Expert</h4>
+            <p>Quantitative Aptitude</p>
+            <div class="teacher-tags">
+              <span>Railway</span><span>Banking</span><span>SSC</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="teacher-card reveal-up" data-teacher="1" style="--delay:120ms">
+          <div class="teacher-avatar">
+            <div class="avatar-placeholder female"><i class="fas fa-user-tie"></i></div>
+            <div class="teacher-overlay">
+              <span>View Profile</span>
+            </div>
+          </div>
+          <div class="teacher-info">
+            <h4>English Specialist</h4>
+            <p>Grammar & Comprehension</p>
+            <div class="teacher-tags">
+              <span>SSC</span><span>Banking</span><span>B.Ed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="teacher-card reveal-up" data-teacher="2" style="--delay:240ms">
+          <div class="teacher-avatar">
+            <div class="avatar-placeholder"><i class="fas fa-user-tie"></i></div>
+            <div class="teacher-overlay">
+              <span>View Profile</span>
+            </div>
+          </div>
+          <div class="teacher-info">
+            <h4>GK & Current Affairs</h4>
+            <p>General Awareness Mentor</p>
+            <div class="teacher-tags">
+              <span>OSSC</span><span>OSSSC</span><span>Railway</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="teacher-card reveal-up" data-teacher="3" style="--delay:360ms">
+          <div class="teacher-avatar">
+            <div class="avatar-placeholder female"><i class="fas fa-user-tie"></i></div>
+            <div class="teacher-overlay">
+              <span>View Profile</span>
+            </div>
+          </div>
+          <div class="teacher-info">
+            <h4>Computer Faculty</h4>
+            <p>IT &amp; Computer Applications</p>
+            <div class="teacher-tags">
+              <span>OS-CIT</span><span>DCA</span><span>PGDCA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       TEACHER MODAL POPUP
+       Rendered and controlled via JavaScript
+  ============================================= -->
+  <div id="teacherModal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- =============================================
+       RESULTS SECTION
+       Animated count-up numbers via Intersection Observer
+  ============================================= -->
+  <section id="results" class="section results-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-tag">Our Track Record</p>
+        <h2 class="section-title">Our Results <span class="text-accent">Speak</span></h2>
+        <p class="section-sub">Your success is our mission</p>
+      </div>
+
+      <!-- Animated counters -->
+      <div class="results-counters reveal-up">
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fas fa-user-check"></i></div>
+          <div class="counter-num" data-target="500">0</div>
+          <div class="counter-suffix">+</div>
+          <div class="counter-label">Students Selected</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fas fa-percent"></i></div>
+          <div class="counter-num" data-target="90">0</div>
+          <div class="counter-suffix">%</div>
+          <div class="counter-label">Success Rate</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fas fa-users-line"></i></div>
+          <div class="counter-num" data-target="1000">0</div>
+          <div class="counter-suffix">+</div>
+          <div class="counter-label">Students Trained</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon"><i class="fas fa-star"></i></div>
+          <div class="counter-num" data-target="8">0</div>
+          <div class="counter-suffix">+</div>
+          <div class="counter-label">Years of Excellence</div>
+        </div>
+      </div>
+
+      <!-- Recent result banner (like the screenshot) -->
+      <div class="result-highlight reveal-up">
+        <div class="result-badge">🏆 Recent Achievement</div>
+        <p>
+          <strong>Mr. Sraban Kumar</strong> (9AM–11AM 2024 Batch) secured a place in
+          <strong>Odisha Special Armed Police (OSAP) 2025</strong>. We're proud of every student who makes us proud!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CONTACT SECTION
+       CTA redirects to Google Form
+  ============================================= -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-tag">Get In Touch</p>
+        <h2 class="section-title">Start Your <span class="text-accent">Journey</span> Today</h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info cards -->
+        <div class="contact-info reveal-up">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Azimabad Chhak, Balasore, Odisha</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone-volume"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:9861537526">9861537526</a> / <a href="tel:7894447027">7894447027</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Batch Timings</h4>
+              <p>Morning: 9AM – 11AM<br />Evening: 4PM – 6PM</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-book-open"></i></div>
+            <div>
+              <h4>Library</h4>
+              <p>AC &amp; Non-AC • Extended Hours</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Apply CTA card -->
+        <div class="contact-cta-card reveal-up">
+          <div class="cta-badge"><i class="fas fa-fire"></i> Limited Seats Available</div>
+          <h3>Ready to Crack Your Exam?</h3>
+          <p>Fill out our quick enrollment form and our team will contact you within 24 hours to guide you through the next steps.</p>
+          <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-primary btn-lg ripple">
+            <i class="fas fa-paper-plane"></i> Apply Now
+          </a>
+          <div class="or-divider">— or —</div>
+          <a href="tel:9861537526" class="btn btn-outline ripple">
+            <i class="fas fa-phone-alt"></i> Call Directly
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-p">P</span>RAYASH
+        <p>Your Path to Government Success</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#results">Results</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">
+        © 2025 Prayash Competitive Coaching &amp; Library. All rights reserved.<br />
+        Azimabad Chhak, Balasore | 9861537526 / 7894447027
+      </div>
+    </div>
+  </footer>
+
+  <!-- =============================================
+       FLOATING BUTTONS
+       WhatsApp + Scroll to Top
+  ============================================= -->
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/919861537526" target="_blank" class="float-btn whatsapp-btn" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Sticky bottom "Enroll Now" on mobile -->
+  <div class="sticky-enroll">
+    <a href="https://forms.gle/yourFormLink" target="_blank" class="btn btn-primary ripple">
+      <i class="fas fa-pen-to-square"></i> Enroll Now — Limited Seats!
+    </a>
+  </div>
+
+  <!-- Scroll to top button (hidden until user scrolls down) -->
+  <button id="scrollTop" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
